@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
-import SORCalculation from './components/SORCalculation';
+import Home from './pages/Home';
+import SORCalculation from './pages/SORCalculation';
 
 const App: React.FC = () => {
   return(
